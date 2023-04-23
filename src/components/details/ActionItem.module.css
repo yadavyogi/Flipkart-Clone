@@ -1,0 +1,36 @@
+.image_side {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.images_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.images_box img {
+  width: 4rem;
+  height: 3.4rem;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 0.4rem;
+}
+
+.images_box img:hover {
+  cursor: pointer;
+}
+
+.main_img {
+  width: 80%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.btn_action {
+  display: flex;
+}
